@@ -354,9 +354,16 @@ toolbar:not([customizing]) > #nav-bar-customization-target {
 }
 
 .titlebar-buttonbox * {
-   border-radius: 5px;
+   border-radius: 0 !important;  /* 移除圆角 */
    width: 35px;
    height: 38px;
+}
+
+/* 加粗图标 */
+.titlebar-button > .toolbarbutton-icon {
+   stroke-width: 1px !important;  /* 增加图标线条粗细 */
+   fill-opacity: 1 !important;    /* 确保填充完全不透明 */
+   stroke: currentColor !important;
 }
 
 /* SIDEBERY */
