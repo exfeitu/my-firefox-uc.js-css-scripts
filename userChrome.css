@@ -47,7 +47,7 @@
 
 /* URL BAR */
 #urlbar {
-   border-radius: 30px !important;
+   border-radius: 0 !important;
    border: 0 !important;
 }
 
@@ -59,7 +59,7 @@
    border: 0 !important;
    border-top: 1px solid var(--urlbar-border-top) !important;
    border-bottom: 1px solid var(--urlbar-border-bottom) !important;
-   border-radius: 30px !important;
+   border-radius: 0 !important;
 }
 
 #urlbar[breakout][breakout-extend] {
@@ -80,7 +80,7 @@
 
 #urlbar-background {
    box-shadow: none !important;
-   border-radius: 30px !important;
+   border-radius: 0 !important;
    background: var(--urlbar-bg) !important;
 }
 
@@ -98,7 +98,7 @@
    outline: none !important;
    box-shadow: none !important;
    background: var(--urldrop-bg) !important;
-   border-radius: 15px !important;
+   border-radius: 0 !important;
 }
 
 #urlbar[breakout][breakout-extend]>#urlbar-input-container,
