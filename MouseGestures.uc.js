@@ -1150,8 +1150,12 @@ z-index: 2147483647 !important;`.trim();
 		D: { name: "右侧标签页", cmd: MouseGestureCommand.advanceRightTab },
 		DR: { name: "关闭当前标签页", cmd: MouseGestureCommand.closeCurrentTab },
 		DL: { name: "恢复关闭标签页", cmd: MouseGestureCommand.restoreClosedTab },
-		UD: {name: '刷新当前页面', cmd: MouseGestureCommand.reloadCurrentPage},
-		DU: {name: '跳过缓存刷新当前页面', cmd: MouseGestureCommand.reloadCurrentPageSkipCache},
+		UD: { name: '刷新当前页面', cmd: MouseGestureCommand.reloadCurrentPage },
+		DU: { name: '跳过缓存刷新当前页面', cmd: MouseGestureCommand.reloadCurrentPageSkipCache },
+		UL: { name: '激活左边的标签页', cmd: MouseGestureCommand.advanceLeftTab },
+		UR: { name: '激活右边的标签页', cmd: MouseGestureCommand.advanceRightTab },
+		ULU: { name: '激活第一个标签页', cmd: MouseGestureCommand.advanceFirstTab },
+		URU: { name: '激活最后一个标签页', cmd: MouseGestureCommand.advanceLastTab },
 	};
 
 	class UcMouseGesture {
